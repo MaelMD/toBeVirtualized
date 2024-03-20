@@ -11,10 +11,11 @@ body, html {
   justify-content: center;
   align-items: center;
   height: 100%;
+  min-height: 100vh;
 }
 
 .app {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -77,7 +78,6 @@ li {
 
 li:hover {
   background-color: #f0f0f0;
-  scale: 1.01;
   transition: ease-in 0.3s;
 }
 
